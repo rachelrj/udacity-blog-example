@@ -1,0 +1,37 @@
+header {
+	background: blue;
+	min-height: 200px;
+	grid-area: header;
+}
+footer {
+	background: green;
+	min-height: 200px;
+	grid-area: footer;
+}
+#sidebar {
+	background: red;
+	min-height: 600px;
+	grid-area: sidebar;
+}
+#main {
+	background: orange;
+	min-height: 600px;
+	grid-area: main;
+}
+body {
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"sidebar main main"
+	"footer footer footer";
+}
+@media only screen and (max-width: 700px) {
+	body {
+		grid-template-areas: 
+		"header"
+		"sidebar"
+		"main"
+		"footer";
+	}
+}
+
