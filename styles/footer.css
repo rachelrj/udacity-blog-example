@@ -1,0 +1,5 @@
+footer {
+	background: green;
+	min-height: 200px;
+	grid-area: footer;
+}
