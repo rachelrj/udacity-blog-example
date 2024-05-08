@@ -1,0 +1,13 @@
+#sidebar {
+  background: red;
+  min-height: 600px;
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px;
+  font-family: "Aclonica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.blog-list {
+  margin: 15px;
+}

@@ -1,0 +1,29 @@
+#main {
+  background: orange;
+  min-height: 600px;
+  grid-area: main;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  gap: 20px;
+}
+.blog-card {
+  display: block;
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.blog-card button {
+  border: 0;
+  background: darkblue;
+  box-shadow: none;
+  border-radius: 0px;
+  color: white;
+  outline: none;
+  height: 38px;
+  font-size: large;
+}

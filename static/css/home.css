@@ -1,0 +1,43 @@
+@import "footer.css";
+@import "header.css";
+@import "sidebar.css";
+@import "main.css";
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:
+    150px minmax(400px, max-content) minmax(400px, max-content)
+    150px;
+  grid-template-areas:
+    "header"
+    "main"
+    "sidebar"
+    "footer";
+}
+@media all and (min-width: 700px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:
+      150px minmax(400px, max-content)
+      150px;
+    grid-template-areas:
+      "header header"
+      "main sidebar"
+      "footer footer";
+  }
+}
+@media all and (min-width: 1100px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:
+      150px minmax(400px, max-content)
+      150px;
+    grid-template-areas:
+      "header header header header"
+      "main main main sidebar"
+      "footer footer footer footer";
+  }
+}

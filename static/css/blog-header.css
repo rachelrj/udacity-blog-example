@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1001px) {
+  #blog-header {
+    background-image: url("https://via.placeholder.com/970x250");
+    width: 950px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 601px) {
+  #blog-header {
+    background-image: url("https://via.placeholder.com/600x350");
+    width: 600px;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #blog-header {
+    background-image: url("https://via.placeholder.com/300x300");
+    width: 300px;
+    height: 300px;
+  }
+}
