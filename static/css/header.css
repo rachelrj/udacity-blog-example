@@ -1,9 +1,12 @@
-body header {
+#body header {
   background: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   grid-area: header;
-  font-family: "Fantasy" "Comic Sans" "sans-serif";
+
+  /* If the font name is a single word and doesn't include any
+   special characters, spaces, or numbers, you can omit the quotes */
+  font-family: "Fantasy" "Comic Sans" sans-serif;
 }

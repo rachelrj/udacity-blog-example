@@ -16,7 +16,7 @@ a#arrow {
   font-size: 44px;
 }
 
-body {
+#body {
   padding: 150px;
 }
 
@@ -33,7 +33,7 @@ article {
 }
 
 @media only screen and (max-width: 1000px) {
-  body {
+  #body {
     padding: 25px;
   }
 }

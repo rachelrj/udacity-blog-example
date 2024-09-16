@@ -3,41 +3,51 @@
 @import "sidebar.css";
 @import "main.css";
 
-body {
+#body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows:
-    150px minmax(400px, max-content) minmax(400px, max-content)
+    150px minmax(300px, max-content) minmax(300px, max-content)
     150px;
   grid-template-areas:
     "header"
-    "main"
     "sidebar"
+    "main"
     "footer";
 }
-@media all and (min-width: 700px) {
-  body {
+
+@media all and (min-width: 900px) {
+  #body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:
-      150px minmax(400px, max-content)
+      150px minmax(300px, max-content)
       150px;
     grid-template-areas:
       "header header"
-      "main sidebar"
+      "sidebar main"
       "footer footer";
   }
 }
-@media all and (min-width: 1100px) {
-  body {
+
+@media all and (min-width: 1300px) {
+  #body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows:
-      150px minmax(400px, max-content)
+      150px minmax(300px, max-content)
       150px;
     grid-template-areas:
       "header header header header"
-      "main main main sidebar"
+      "sidebar main main main"
       "footer footer footer footer";
   }
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+h2 {
+  font-family: 'Courier New', Courier, monospace;
 }

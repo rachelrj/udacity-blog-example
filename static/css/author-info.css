@@ -1,21 +1,20 @@
 #about-author {
-	display: flex;
+  display: flex;
 }
 #author-info {
-	display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 @media only screen and (min-width: 0px) {
-  	#about-author {
-		display: flex;
-		flex-direction: column;
-	}
+  #about-author {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
 @media only screen and (min-width: 600px) {
-  	#about-author {
-		display: flex;
-		flex-direction: row;
-	}
+  #about-author {
+    display: flex;
+    flex-direction: row;
+  }
 }

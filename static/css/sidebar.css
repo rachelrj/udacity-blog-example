@@ -1,6 +1,6 @@
 #sidebar {
   background: red;
-  min-height: 600px;
+  /* min-height: 600px; */
   grid-area: sidebar;
   display: flex;
   flex-direction: column;

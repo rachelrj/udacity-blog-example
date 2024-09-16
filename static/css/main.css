@@ -2,12 +2,12 @@
   background: orange;
   min-height: 600px;
   grid-area: main;
-  flex-wrap: wrap;
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .blog-card {
   display: block;
